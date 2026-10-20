@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Browse coffee products, add selections to the cart, and open a French press brewing guide.</description>
+   <name>TC6-Browse coffee add products to the cart and explore brew guides</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>045f2d6e-f9b8-419b-81b4-28952a3ab212</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>0fa8e2a3-6b2e-4722-8a3f-497ac00bf54f</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Add to cart'</defaultValue>
+      <description>Step 13: Click on button addToBag (addToCart) - (Dynamic locator variable)</description>
+      <id>5a5b2cb0-daac-4321-a906-46f131d7e2a1</id>
+      <masked>false</masked>
+      <name>button_addToBag_InternalRoleButtonName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Add to cart'</defaultValue>
+      <description>Step 15: Click on button addToBag (addToCart) - (Dynamic locator variable)</description>
+      <id>b28d829c-dea8-42ee-9def-63672b7ae0bd</id>
+      <masked>false</masked>
+      <name>button_addToBag_InternalRoleButtonName_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-cart'</defaultValue>
+      <description>Step 13: Click on button addToBag (addToCart) - (Dynamic locator variable)</description>
+      <id>f910e3b2-0a82-4c09-be4c-6a9da8c934d3</id>
+      <masked>false</masked>
+      <name>button_addToBag_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-cart'</defaultValue>
+      <description>Step 15: Click on button addToBag (addToCart) - (Dynamic locator variable)</description>
+      <id>80a9774b-051c-4b4b-99f9-621628bb4bf6</id>
+      <masked>false</masked>
+      <name>button_addToBag_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 kg'</defaultValue>
+      <description>Step 18: Click on button object (oneKg) - (Dynamic locator variable)</description>
+      <id>2b436e70-22da-434b-ac52-5deefc97337b</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Subscribe and save 10%'</defaultValue>
+      <description>Step 19: Click on button object (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
+      <id>14ea75e6-8078-41c3-b4c8-d3ce25516973</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Filter'</defaultValue>
+      <description>Step 20: Click on button object (filter) - (Dynamic locator variable)</description>
+      <id>d3c555a5-ff3c-4760-a64b-aa550b7efb7f</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Add to cart'</defaultValue>
+      <description>Step 22: Click on button addToCart - (Dynamic locator variable)</description>
+      <id>4016b21f-15bd-48b1-b53c-d821c8022180</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Add to cart'</defaultValue>
+      <description>Step 28: Double-click on button addToCart - (Dynamic locator variable)</description>
+      <id>cdf362cb-0b9e-46bc-a5ca-79dee7835a6f</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Subscribe and save 10%'</defaultValue>
+      <description>Step 30: Click on button object (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
+      <id>8ed398c2-4c6a-4083-967b-63b399583f32</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'French press'</defaultValue>
+      <description>Step 31: Click on button object (frenchPress) - (Dynamic locator variable)</description>
+      <id>cbc71282-aff1-422c-9d4f-36b47d560678</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 kg'</defaultValue>
+      <description>Step 32: Click on button object (oneKg) - (Dynamic locator variable)</description>
+      <id>5f4fe0a9-1149-475a-89e3-74b75c4aa9df</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_7</name>
+   </variable>
+   <variable>
+      <defaultValue>'Add to cart'</defaultValue>
+      <description>Step 33: Click on button addToCart - (Dynamic locator variable)</description>
+      <id>2b3df2e2-3ee6-46cb-bfb7-92587e1e0699</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_8</name>
+   </variable>
+   <variable>
+      <defaultValue>'#size-large'</defaultValue>
+      <description>Step 18: Click on button object (oneKg) - (Dynamic locator variable)</description>
+      <id>6e120fda-bd0d-4296-92e9-b225ad120d3a</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id="plan-subscribe"]'</defaultValue>
+      <description>Step 19: Click on button object (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
+      <id>891ce696-c246-4069-867e-6d4dc482d821</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#grind-filter'</defaultValue>
+      <description>Step 20: Click on button object (filter) - (Dynamic locator variable)</description>
+      <id>52dbb1e7-bc5f-4dd1-a568-22a25be45df4</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-cart'</defaultValue>
+      <description>Step 22: Click on button addToCart - (Dynamic locator variable)</description>
+      <id>c2c08b79-b302-4125-ad06-2edfb41d849e</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-cart'</defaultValue>
+      <description>Step 28: Double-click on button addToCart - (Dynamic locator variable)</description>
+      <id>b321df70-c1d1-42f1-a540-350992e626da</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'[id="plan-subscribe"]'</defaultValue>
+      <description>Step 30: Click on button object (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
+      <id>94d4c3b3-dfe3-4704-a7c0-7a19af308545</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'#grind-press'</defaultValue>
+      <description>Step 31: Click on button object (frenchPress) - (Dynamic locator variable)</description>
+      <id>2713179f-f061-4e5b-ba50-e28714ecd99a</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'#size-large'</defaultValue>
+      <description>Step 32: Click on button object (oneKg) - (Dynamic locator variable)</description>
+      <id>3edc8ffe-d0ec-4f12-a601-ae67b9fab795</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_7</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-cart'</defaultValue>
+      <description>Step 33: Click on button addToCart - (Dynamic locator variable)</description>
+      <id>9a247f33-1a7f-41b4-b8bb-6f7408afa8d8</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_8</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>0fa8e2a3-6b2e-4722-8a3f-497ac00bf54f</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
