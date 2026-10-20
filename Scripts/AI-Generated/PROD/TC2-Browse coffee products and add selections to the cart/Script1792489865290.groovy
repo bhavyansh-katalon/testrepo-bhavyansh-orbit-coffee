@@ -106,7 +106,8 @@ TrueTestScripts.click(findTestObject('AI-Generated/PROD/Page_coffees_easy_decaf/
 
 "Step 23: Click on button addToCart"
 
-TrueTestScripts.click(findTestObject('AI-Generated/PROD/Page_coffees_easy_decaf/button_addToCart'))
+// Bind values to the variables in the locators of "AI-Generated/PROD/Dynamic Objects/Page_coffees_easy_decaf/button_subscribeAndSaveTenPercent"
+TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_easy_decaf/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_1': button_subscribeAndSaveTenPercent_InternalRoleButtonName_3, 'button_subscribeAndSaveTenPercent_css_value_1': button_subscribeAndSaveTenPercent_css_value_3]))
 
 "Step 24: Click on link shop -> Navigate to page '/shop'"
 
@@ -139,21 +140,22 @@ TrueTestScripts.click(findTestObject('AI-Generated/PROD/Page_coffees_sunrise_ble
 "Step 31: Click on button subscribeAndSaveTenPercent (subscribeAndSaveTenPercent)"
 
 // Bind values to the variables in the locators of "AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent"
-TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_2': button_subscribeAndSaveTenPercent_InternalRoleButtonName_3, 'button_subscribeAndSaveTenPercent_css_value_2': button_subscribeAndSaveTenPercent_css_value_3]))
+TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_2': button_subscribeAndSaveTenPercent_InternalRoleButtonName_4, 'button_subscribeAndSaveTenPercent_css_value_2': button_subscribeAndSaveTenPercent_css_value_4]))
 
 "Step 32: Click on button subscribeAndSaveTenPercent (frenchPress)"
 
 // Bind values to the variables in the locators of "AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent"
-TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_2': button_subscribeAndSaveTenPercent_InternalRoleButtonName_4, 'button_subscribeAndSaveTenPercent_css_value_2': button_subscribeAndSaveTenPercent_css_value_4]))
+TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_2': button_subscribeAndSaveTenPercent_InternalRoleButtonName_5, 'button_subscribeAndSaveTenPercent_css_value_2': button_subscribeAndSaveTenPercent_css_value_5]))
 
 "Step 33: Click on button subscribeAndSaveTenPercent (oneKg)"
 
 // Bind values to the variables in the locators of "AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent"
-TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_2': button_subscribeAndSaveTenPercent_InternalRoleButtonName_5, 'button_subscribeAndSaveTenPercent_css_value_2': button_subscribeAndSaveTenPercent_css_value_5]))
+TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_2': button_subscribeAndSaveTenPercent_InternalRoleButtonName_6, 'button_subscribeAndSaveTenPercent_css_value_2': button_subscribeAndSaveTenPercent_css_value_6]))
 
 "Step 34: Click on button addToCart"
 
-TrueTestScripts.click(findTestObject('AI-Generated/PROD/Page_coffees_sunrise_blend/button_addToCart'))
+// Bind values to the variables in the locators of "AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent"
+TrueTestScripts.click(findTestObject('AI-Generated/PROD/Dynamic Objects/Page_coffees_sunrise_blend/button_subscribeAndSaveTenPercent', ['button_subscribeAndSaveTenPercent_InternalRoleButtonName_2': button_subscribeAndSaveTenPercent_InternalRoleButtonName_7, 'button_subscribeAndSaveTenPercent_css_value_2': button_subscribeAndSaveTenPercent_css_value_7]))
 
 "Step 35: Click on link brewGuides -> Navigate to page '/guides'"
 

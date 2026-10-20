@@ -5,7 +5,7 @@
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cdf7738f-084e-46da-80a5-cffadf34786a</testCaseGuid>
+   <testCaseGuid>3f64666d-a314-4748-b1c9-98cb8cbefb78</testCaseGuid>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
@@ -49,25 +49,39 @@
       <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_2</name>
    </variable>
    <variable>
-      <defaultValue>'Subscribe and save 10%'</defaultValue>
-      <description>Step 31: Click on button subscribeAndSaveTenPercent (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
+      <defaultValue>'Add to cart'</defaultValue>
+      <description>Step 23: Click on button addToCart - (Dynamic locator variable)</description>
       <id>9503e5f4-1567-4764-80c8-7fb9082d2af2</id>
       <masked>false</masked>
       <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_3</name>
    </variable>
    <variable>
-      <defaultValue>'French press'</defaultValue>
-      <description>Step 32: Click on button subscribeAndSaveTenPercent (frenchPress) - (Dynamic locator variable)</description>
+      <defaultValue>'Subscribe and save 10%'</defaultValue>
+      <description>Step 31: Click on button subscribeAndSaveTenPercent (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
       <id>8ffd4775-b928-40fe-940e-e44c91f890e7</id>
       <masked>false</masked>
       <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_4</name>
    </variable>
    <variable>
-      <defaultValue>'1 kg'</defaultValue>
-      <description>Step 33: Click on button subscribeAndSaveTenPercent (oneKg) - (Dynamic locator variable)</description>
+      <defaultValue>'French press'</defaultValue>
+      <description>Step 32: Click on button subscribeAndSaveTenPercent (frenchPress) - (Dynamic locator variable)</description>
       <id>d098518d-c5d8-4021-aaf7-ca924c3a405c</id>
       <masked>false</masked>
       <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 kg'</defaultValue>
+      <description>Step 33: Click on button subscribeAndSaveTenPercent (oneKg) - (Dynamic locator variable)</description>
+      <id>3c44f633-02b2-410f-9984-128e3ad8a3e8</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Add to cart'</defaultValue>
+      <description>Step 34: Click on button addToCart - (Dynamic locator variable)</description>
+      <id>56253df2-93fe-4195-92ac-034cf19dfbd6</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_InternalRoleButtonName_7</name>
    </variable>
    <variable>
       <defaultValue>'#size-large'</defaultValue>
@@ -91,25 +105,39 @@
       <name>button_subscribeAndSaveTenPercent_css_value_2</name>
    </variable>
    <variable>
-      <defaultValue>'[id="plan-subscribe"]'</defaultValue>
-      <description>Step 31: Click on button subscribeAndSaveTenPercent (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
+      <defaultValue>'#add-cart'</defaultValue>
+      <description>Step 23: Click on button addToCart - (Dynamic locator variable)</description>
       <id>c57e842f-29d5-4726-bda3-38167d6088a8</id>
       <masked>false</masked>
       <name>button_subscribeAndSaveTenPercent_css_value_3</name>
    </variable>
    <variable>
-      <defaultValue>'#grind-press'</defaultValue>
-      <description>Step 32: Click on button subscribeAndSaveTenPercent (frenchPress) - (Dynamic locator variable)</description>
+      <defaultValue>'[id="plan-subscribe"]'</defaultValue>
+      <description>Step 31: Click on button subscribeAndSaveTenPercent (subscribeAndSaveTenPercent) - (Dynamic locator variable)</description>
       <id>4ccc5334-d3bf-4887-b159-f25b92786191</id>
       <masked>false</masked>
       <name>button_subscribeAndSaveTenPercent_css_value_4</name>
    </variable>
    <variable>
-      <defaultValue>'#size-large'</defaultValue>
-      <description>Step 33: Click on button subscribeAndSaveTenPercent (oneKg) - (Dynamic locator variable)</description>
+      <defaultValue>'#grind-press'</defaultValue>
+      <description>Step 32: Click on button subscribeAndSaveTenPercent (frenchPress) - (Dynamic locator variable)</description>
       <id>de0cb32d-9bf5-428a-b0f6-3c0d3409c4a3</id>
       <masked>false</masked>
       <name>button_subscribeAndSaveTenPercent_css_value_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'#size-large'</defaultValue>
+      <description>Step 33: Click on button subscribeAndSaveTenPercent (oneKg) - (Dynamic locator variable)</description>
+      <id>c109b2ee-75af-4c3c-b6f9-788a9a45b298</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-cart'</defaultValue>
+      <description>Step 34: Click on button addToCart - (Dynamic locator variable)</description>
+      <id>79a70827-b8e9-4d86-8344-cde8f436f936</id>
+      <masked>false</masked>
+      <name>button_subscribeAndSaveTenPercent_css_value_7</name>
    </variable>
    <customField>
       <flow>
