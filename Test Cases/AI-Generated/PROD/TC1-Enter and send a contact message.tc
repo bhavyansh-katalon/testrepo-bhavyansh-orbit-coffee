@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter contact details and a message, then send the contact form.</description>
+   <name>TC1-Enter and send a contact message</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>975fea97-ab62-49ab-b200-29113fb278c8</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>63515887-d261-4391-b24e-febd68a7d5ab</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 4: Enter input value in input email - (Input data variable)</description>
+      <id>e0bc17aa-9c9e-417d-bca9-c64bdf5dea83</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 3: Enter input value in input yourName - (Input data variable)</description>
+      <id>2633675e-fa55-4047-b8ba-c96e6faaf46f</id>
+      <masked>false</masked>
+      <name>input_yourName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 3: Enter input value in input yourName - (Dynamic locator variable)</description>
+      <id>25cdce35-e40e-401e-b25b-37b45ac40b77</id>
+      <masked>false</masked>
+      <name>input_yourName_nameRedacted</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 5: Select option with input value from select topic - (Input data variable)</description>
+      <id>25302152-b334-4c5a-939a-8cf172b86c3c</id>
+      <masked>false</masked>
+      <name>select_topic</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 6: Enter input value in textarea message - (Input data variable)</description>
+      <id>8846de0c-c5aa-4604-be87-208c3bc91a5f</id>
+      <masked>false</masked>
+      <name>textarea_message</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>63515887-d261-4391-b24e-febd68a7d5ab</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
