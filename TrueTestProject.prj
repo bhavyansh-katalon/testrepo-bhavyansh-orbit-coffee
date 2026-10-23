@@ -4,7 +4,10 @@
    <name>TrueTestGen4Project</name>
    <tag></tag>
    <UUID>e48673d1-a7f5-4812-b949-be591caa4ccf</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>11.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
       <sourceFolderList>

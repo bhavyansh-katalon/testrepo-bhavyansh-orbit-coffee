@@ -9,7 +9,7 @@ import truetest.PROD.custom.TrueTestScripts
 @com.kms.katalon.core.annotation.SetUp
 def setup() {
 	WebUI.openBrowser('')
-	WebUI.setViewPortSize(1469, 214)
+//	WebUI.setViewPortSize(1469, 214)
 	//WebUI.maximizeWindow()
 }
 
