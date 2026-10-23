@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+    <description>Verify a user can navigate from Brew guides to Contact, submit synthetic contact details, and see a confirmation.</description>
+    <tag></tag>
+    <comment></comment>
+    <name>Orbit Coffee - Submit Contact Message from Brew Guides</name>
+    <recordOption>OTHER</recordOption>
+    <testCaseGuid>4560fb22-bbf3-4bf8-9bd8-be3d49341d61</testCaseGuid>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{&quot;author&quot;:null,&quot;status&quot;:&quot;DRAFT&quot;,&quot;assignee&quot;:&quot;&quot;,&quot;linkedTestCaseIds&quot;:[],&quot;customFields&quot;:{&quot;customField&quot;:[{&quot;key&quot;:&quot;featureArea&quot;,&quot;value&quot;:[&quot;Contact form&quot;,&quot;Brew guides&quot;]}]},&quot;priority&quot;:&quot;MEDIUM&quot;,&quot;automationStatus&quot;:&quot;MANUAL_ONLY&quot;,&quot;preCondition&quot;:&quot;The Orbit Coffee website is available in a supported browser. Use synthetic contact information only.&quot;}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+</TestCaseEntity>
