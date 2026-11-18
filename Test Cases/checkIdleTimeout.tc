@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkIdleTimeout</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Bhavyansh</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Bhavyansh</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>4bee2b97-6f1d-4498-9b3c-d0e211a9e992</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>4bee2b97-6f1d-4498-9b3c-d0e211a9e992</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70fc18e6-58f2-4e70-a55f-cfdeb1408b08</testCaseGuid>
+</TestCaseEntity>
