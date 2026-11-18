@@ -25,7 +25,7 @@ import java.time.Instant
 
 WebUI.openBrowser('')
 try {
-	WebUI.navigateToUrl('https://example.com')
+	WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 	KeywordUtil.logInfo('Initial title: ' + WebUI.getWindowTitle())
 	KeywordUtil.logInfo('Wait starts UTC: ' + Instant.now())
 
