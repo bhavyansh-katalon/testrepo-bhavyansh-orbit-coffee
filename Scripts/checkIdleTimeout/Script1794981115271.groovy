@@ -32,6 +32,7 @@ try {
 	// Deliberately NO browser commands during this wait.
 	for (int i = 0; i < 20; i++) {
 		WebUI.delay(30)
+		WebUI.getWindowTitle()
 	}
 
 	KeywordUtil.logInfo('Wait ends UTC: ' + Instant.now())
