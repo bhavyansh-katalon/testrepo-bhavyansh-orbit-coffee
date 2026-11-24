@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_nav-contact</name>
+   <tag></tag>
+   <elementGuidId>84699c0a-f973-43a5-9cc2-d5537c0a1305</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'nav-contact']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nav-contact</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Main&quot;i >> internal:role=link[name=&quot;Contact&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8c4a0a84-dbf0-4bde-aeef-fb8db2a4d5a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/contact</value>
+      <webElementGuid>6cfd971c-5a13-4771-8f94-f91e7ea03930</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nav-contact</value>
+      <webElementGuid>c09c481c-4d07-448f-95b8-6f3f15fc7d34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Contact</value>
+      <webElementGuid>7dabbaa1-77a3-472d-808d-de1d42060a04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ac0f8a888267e5d547abddc9f357ee8a</value>
+      <webElementGuid>f2fc1eb4-3605-4f8f-85f3-a07689ea1ff8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'nav-contact']</value>
+      <webElementGuid>aa7586f1-3127-4aed-bfa5-7b6458be8462</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'nav-contact']</value>
+      <webElementGuid>3ccc8000-6aa1-4b70-9df6-67a903ee475a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/contact' and @id = 'nav-contact' and (text() = 'Contact' or . = 'Contact')]</value>
+      <webElementGuid>27785216-a275-4a9f-a00a-66776d66e22e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

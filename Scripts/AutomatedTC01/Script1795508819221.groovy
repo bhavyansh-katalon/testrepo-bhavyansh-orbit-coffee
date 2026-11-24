@@ -18,25 +18,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.util.KeywordUtil
-import com.kms.katalon.core.model.FailureHandling
-import java.time.Instant
+WebUI.openBrowser(null)
 
-WebUI.openBrowser('')
-try {
-	WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-	KeywordUtil.logInfo('Initial title: ' + WebUI.getWindowTitle())
-	KeywordUtil.logInfo('Wait starts UTC: ' + Instant.now())
+WebUI.navigateToUrl('https://bhavyansh-orbit-coffee.vercel.app/')
 
-	// Deliberately NO browser commands during this wait.
-	for (int i = 0; i < 20; i++) {
-		WebUI.delay(30)
-		WebUI.getWindowTitle()
-	}
+WebUI.click(findTestObject('Page_Fresh coffee, on your schedule  Orbit Coffee/a_nav-contact'))
 
-	KeywordUtil.logInfo('Wait ends UTC: ' + Instant.now())
-	KeywordUtil.logInfo('Title after wait: ' + WebUI.getWindowTitle())
-} finally {
-	WebUI.closeBrowser(FailureHandling.OPTIONAL)
-}
+WebUI.setText(findTestObject('Page_Contact  Orbit Coffee/input_Your name'), 'Bhavyansh')
+
+WebUI.setText(findTestObject('Page_Contact  Orbit Coffee/input_Email'), 'demo@gmail.com')
+
+//WebUI.selectOptionByValue(findTestObject('Page_Contact  Orbit Coffee/select_Topic'), 'An Order', false)
+
+//WebUI.click(findTestObject("Object Repository/selectObj"))
+//
+//WebUI.delay(2)
+
+//WebUI.click(findTestObject("Object Repository/selectOpt2"))
+
+WebUI.setText(findTestObject('Page_Contact  Orbit Coffee/textarea_Message'), 'this is a test only!')
+
+//WebUI.click(findTestObject('Page_Contact  Orbit Coffee/button_send-message'))
+//
+//WebUI.click(findTestObject('Page_Contact  Orbit Coffee/a_contact-done'))
+
+WebUI.closeBrowser()
+
+

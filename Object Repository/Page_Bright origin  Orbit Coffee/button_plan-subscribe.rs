@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_plan-subscribe</name>
+   <tag></tag>
+   <elementGuidId>67bd0887-7800-420c-ae34-9a7c261472f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'plan-subscribe']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#plan-subscribe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Subscribe and save 10%&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8e2b3119-6c1c-483b-878c-1fc380bd9ec4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pill</value>
+      <webElementGuid>dcbe2b75-0bbf-4372-b8bf-6256eb391f81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>plan-subscribe</value>
+      <webElementGuid>13de9ffe-0695-401e-927a-637ae21914d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-plan</name>
+      <type>Main</type>
+      <value>subscribe</value>
+      <webElementGuid>3beb07a0-fb4b-49f0-905b-d108b0f89ef7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>37d1cd35-3f93-47fb-8514-061c54cafe5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Subscribe and save 10%</value>
+      <webElementGuid>6e76069a-b007-44ac-9318-449be92ec120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-846917f8b18f59da427dd458c3102653</value>
+      <webElementGuid>0fb8bce9-b58d-41d3-9d86-9b5d44dd2ecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'plan-subscribe']</value>
+      <webElementGuid>0acbe8c0-b9af-46f2-8a2f-263a2212947e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'plan-subscribe']</value>
+      <webElementGuid>229d2d80-9edc-4c2e-b209-e28b69422bd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'plan-subscribe' and (text() = 'Subscribe and save 10%' or . = 'Subscribe and save 10%')]</value>
+      <webElementGuid>2111f508-57f7-4667-848e-a74ea34dcbd4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

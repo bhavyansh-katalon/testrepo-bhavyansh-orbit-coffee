@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AutomatedTC01</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Bhavyansh</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Bhavyansh</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>4bee2b97-6f1d-4498-9b3c-d0e211a9e992</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>4bee2b97-6f1d-4498-9b3c-d0e211a9e992</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08cd404d-4d6d-45f8-8108-9d85372339db</testCaseGuid>
+</TestCaseEntity>

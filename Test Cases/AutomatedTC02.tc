@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>checkIdleTimeout</name>
+   <name>AutomatedTC02</name>
    <tag></tag>
    <integratedEntity>
       <productName>TESTOPS</productName>
@@ -27,5 +27,5 @@
    </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>70fc18e6-58f2-4e70-a55f-cfdeb1408b08</testCaseGuid>
+   <testCaseGuid>8fc48fb5-b162-4bae-b387-1853b0b90714</testCaseGuid>
 </TestCaseEntity>

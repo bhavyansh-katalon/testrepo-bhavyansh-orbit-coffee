@@ -18,27 +18,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('https://bhavyansh-orbit-coffee.vercel.app/')
 
-WebUI.click(findTestObject('Object Repository/Page_Fresh coffee, on your schedule  Orbit Coffee/a_Contact'))
+WebUI.click(findTestObject('Page_Fresh coffee, on your schedule  Orbit Coffee/a_nav-shop'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Contact  Orbit Coffee/input_Your name_contact-name'), 'Bhavyansh')
+WebUI.click(findTestObject('Page_Shop  Orbit Coffee/div_Bright origin'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Contact  Orbit Coffee/input_Email_contact-email'), 'Bhavyansh@demo.com')
+WebUI.click(findTestObject('Page_Bright origin  Orbit Coffee/button_grind-espresso'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Contact  Orbit Coffee/select_Choose a topicAn orderMy subscriptio_e4931f'), 
-    'My subscription', true)
+WebUI.click(findTestObject('Page_Bright origin  Orbit Coffee/button_size-large'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Contact  Orbit Coffee/textarea_Message_contact-message'), 'demotestdemotestdemotestdemotestdemotest')
+WebUI.click(findTestObject('Page_Bright origin  Orbit Coffee/button_plan-subscribe'))
 
-WebUI.click(findTestObject('Object Repository/Page_Contact  Orbit Coffee/button_Send message'))
+WebUI.click(findTestObject('Page_Bright origin  Orbit Coffee/button_quantity-plus'))
 
-WebUI.click(findTestObject('Object Repository/Page_Contact  Orbit Coffee/a_Back to the shop'))
-
-WebUI.click(findTestObject('Object Repository/Page_Shop  Orbit Coffee/a_Account'))
-
-CustomKeywords.'perf.ChromeTrace.save'('Checkout flow')
+WebUI.click(findTestObject('Page_Bright origin  Orbit Coffee/button_add-bag'))
 
 WebUI.closeBrowser()
+
